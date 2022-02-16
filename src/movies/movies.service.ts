@@ -18,7 +18,7 @@ export class MoviesService {
         }
         return movie;
     }
-    //주석
+    //주석show
 
     deleteOne(id: number): boolean {
         this.getOne(id);
